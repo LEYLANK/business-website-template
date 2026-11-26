@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="navdiv">
+      <a class="logo" href="#home">Logo</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul class="navi" id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="btn" href="#contact">Get started</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <p class="quote">Short tagline goes here.</p>
+      <h1 class="title">Your main headline<br>goes here.</h1>
+    </section>
+
+    <!-- Three columns -->
+    <section class="columns" id="services">
+      <div class="column">
+        <div class="nums">1</div>
+        <h2>First point</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni explicabo officia nobis et provident temporibus.</p>
+      </div>
+      <div class="column">
+        <div class="nums">2</div>
+        <h2>Second point</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni explicabo officia nobis et provident temporibus.</p>
+      </div>
+      <div class="column">
+        <div class="nums">3</div>
+        <h2>Third point</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni explicabo officia nobis et provident temporibus.</p>
+      </div>
+    </section>
+
+    <!-- Scrolling banner (the second group is a copy for the loop) -->
+    <div class="slider" aria-hidden="true">
+      <div class="group">
+        <span class="item">✸</span><span class="item">Lorem &amp; Ipsum Dolor</span>
+        <span class="item">✸</span><span class="item">Lorem &amp; Ipsum Dolor</span>
+        <span class="item">✸</span><span class="item">Lorem &amp; Ipsum Dolor</span>
+        <span class="item">✸</span><span class="item">Lorem &amp; Ipsum Dolor</span>
+      </div>
+      <div class="group">
+        <span class="item">✸</span><span class="item">Lorem &amp; Ipsum Dolor</span>
+        <span class="item">✸</span><span class="item">Lorem &amp; Ipsum Dolor</span>
+        <span class="item">✸</span><span class="item">Lorem &amp; Ipsum Dolor</span>
+        <span class="item">✸</span><span class="item">Lorem &amp; Ipsum Dolor</span>
+      </div>
+    </div>
+
+    <!-- About 1: image on the right -->
+    <section class="about" id="about">
+      <div class="about-content">
+        <h2 class="first">Section heading</h2>
+        <p class="second">Short subheading</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus sunt, reprehenderit nobis quos itaque illo et delectus dignissimos magnam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum laboriosam corporis fuga, in dolorem et similique provident.</p>
+        <details class="accordion">
+          <summary>Question or topic</summary>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas reprehenderit beatae laudantium nesciunt iure.</p>
+        </details>
+        <a class="btn" href="#contact">Inquire now</a>
+      </div>
+      <img class="photo" src="images/pexels-lilartsy-3150547.jpg" width="900" height="1349" loading="lazy"
+           alt="A mug resting on a stack of books among autumn leaves">
+    </section>
+
+    <!-- About 2: image on the left -->
+    <section class="about about-alt">
+      <img class="photo" src="images/pexels-lilartsy-3150547.jpg" width="900" height="1349" loading="lazy"
+           alt="A mug resting on a stack of books among autumn leaves">
+      <div class="about-content">
+        <h2 class="first">Section heading</h2>
+        <p class="second">Short subheading</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus sunt, reprehenderit nobis quos itaque illo et delectus dignissimos magnam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum laboriosam corporis fuga, in dolorem et similique provident.</p>
+        <details class="accordion">
+          <summary>Question or topic</summary>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas reprehenderit beatae laudantium nesciunt iure.</p>
+        </details>
+        <a class="btn" href="#contact">Inquire now</a>
+      </div>
+    </section>
+
+    <!-- About 3: image on the right -->
+    <section class="about">
+      <div class="about-content">
+        <h2 class="first">Section heading</h2>
+        <p class="second">Short subheading</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus sunt, reprehenderit nobis quos itaque illo et delectus dignissimos magnam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum laboriosam corporis fuga, in dolorem et similique provident.</p>
+        <details class="accordion">
+          <summary>Question or topic</summary>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas reprehenderit beatae laudantium nesciunt iure.</p>
+        </details>
+        <a class="btn" href="#contact">Inquire now</a>
+      </div>
+      <img class="photo" src="images/pexels-lilartsy-3150547.jpg" width="900" height="1349" loading="lazy"
+           alt="A mug resting on a stack of books among autumn leaves">
+    </section>
+
+    <!-- Second banner -->
+    <div class="slider" aria-hidden="true">
+      <div class="group">
+        <span class="item">✸</span><span class="item">Lorem &amp; Ipsum Dolor</span>
+        <span class="item">✸</span><span class="item">Lorem &amp; Ipsum Dolor</span>
+        <span class="item">✸</span><span class="item">Lorem &amp; Ipsum Dolor</span>
+        <span class="item">✸</span><span class="item">Lorem &amp; Ipsum Dolor</span>
+      </div>
+      <div class="group">
+        <span class="item">✸</span><span class="item">Lorem &amp; Ipsum Dolor</span>
+        <span class="item">✸</span><span class="item">Lorem &amp; Ipsum Dolor</span>
+        <span class="item">✸</span><span class="item">Lorem &amp; Ipsum Dolor</span>
+        <span class="item">✸</span><span class="item">Lorem &amp; Ipsum Dolor</span>
+      </div>
+    </div>
+
+    <!-- FAQ: opening one item closes the others (name="faq") -->
+    <section class="faq" id="faq">
+      <h2>FAQs</h2>
+      <div class="faq-grid">
+        <details class="accordion" name="faq"><summary>Question one</summary><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas reprehenderit beatae laudantium.</p></details>
+        <details class="accordion" name="faq"><summary>Question two</summary><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas reprehenderit beatae laudantium.</p></details>
+        <details class="accordion" name="faq"><summary>Question three</summary><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas reprehenderit beatae laudantium.</p></details>
+        <details class="accordion" name="faq"><summary>Question four</summary><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas reprehenderit beatae laudantium.</p></details>
+        <details class="accordion" name="faq"><summary>Question five</summary><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas reprehenderit beatae laudantium.</p></details>
+        <details class="accordion" name="faq"><summary>Question six</summary><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas reprehenderit beatae laudantium.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <!-- Contact -->
+  <footer class="contact" id="contact">
+    <h2 class="first">Contact us</h2>
+    <p class="second"><a href="mailto:hello@example.com">hello@example.com</a></p>
+    <ul class="links">
+      <li><a href="#" target="_blank" rel="noopener">Link one</a></li>
+      <li><a href="#" target="_blank" rel="noopener">Link two</a></li>
+      <li><a href="#" target="_blank" rel="noopener">Link three</a></li>
+    </ul>
+    <p class="credit">Photo by lilartsy on Pexels</p>
+  </footer>
+
+</body>
+</html>
